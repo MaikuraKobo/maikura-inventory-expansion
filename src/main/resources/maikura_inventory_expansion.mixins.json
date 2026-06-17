@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "jp.maikurakobo.inventoryexpansion.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "InventoryScreenMixin",
+    "HandledScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "mixins": [
+    "PlayerScreenHandlerMixin"
+  ]
+}

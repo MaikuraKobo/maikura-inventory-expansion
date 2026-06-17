@@ -1,0 +1,7 @@
+{
+  "config.maikura_inventory_expansion.title": "Maikura Inventory Expansion 設定",
+  "config.maikura_inventory_expansion.columns": "追加インベントリ横数: %s",
+  "config.maikura_inventory_expansion.rows": "追加インベントリ縦数: %s",
+  "config.maikura_inventory_expansion.note": "変更はインベントリを開き直すと反映されます",
+  "config.maikura_inventory_expansion.stack_note": "特殊データを持つ一部アイテムは追加インベントリ内では1個単位になります"
+}

@@ -1,0 +1,7 @@
+{
+  "config.maikura_inventory_expansion.title": "Maikura Inventory Expansion Config",
+  "config.maikura_inventory_expansion.columns": "Extra inventory columns: %s",
+  "config.maikura_inventory_expansion.rows": "Extra inventory rows: %s",
+  "config.maikura_inventory_expansion.note": "Changes apply after reopening the inventory",
+  "config.maikura_inventory_expansion.stack_note": "Some special data items are stored one by one in the expanded inventory"
+}

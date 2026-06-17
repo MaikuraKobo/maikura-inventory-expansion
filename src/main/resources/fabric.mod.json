@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "maikura_inventory_expansion",
+  "version": "${version}",
+  "name": "Maikura Inventory Expansion",
+  "description": "標準Eインベントリの左側に、サイズ変更可能なプレイヤーごとの拡張インベントリを追加します。",
+  "authors": [
+    "舞倉工房 / MAIKURA KOBO"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/maikura_inventory_expansion/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "jp.maikurakobo.inventoryexpansion.MaikuraInventoryExpansion"
+    ],
+    "modmenu": [
+      "jp.maikurakobo.inventoryexpansion.config.MaikuraInventoryExpansionModMenu"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.17.0",
+    "minecraft": "1.21.11",
+    "fabric-api": "*",
+    "java": ">=21"
+  },
+  "mixins": [
+    "maikura_inventory_expansion.mixins.json"
+  ],
+  "suggests": {
+    "modmenu": "*"
+  }
+}
